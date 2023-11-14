@@ -1,0 +1,44 @@
+/* CSS File (styles.css) */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+#text-container {
+    text-align: center;
+    padding: 20px;
+    background-color: skyblue;
+}
+#story-container {
+  width: 700px;
+  height: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#choices-container {
+  background-size: cover;
+  background-position: center;
+}
+
+.choice-button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.choice-button:hover {
+  background-color: #45a049;
+}
